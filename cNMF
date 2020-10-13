@@ -1,0 +1,10 @@
+cNMF is an analysis pipeline for inferring gene expression programs from single-cell RNA-Seq (scRNA-Seq) data.
+可以用来推断细胞类型和确定细胞功能。因此值得学习和使用,地址[https://github.com/dylkot/cNMF/](https://github.com/dylkot/cNMF/)
+
+### 1 安装软件
+安装官网安装指南，使用docker安装，非常简便，安装好之后，先测试一下
+```
+# 或者先切换到文件所在目录，然后执行以下命令
+docker run --rm -it -v `pwd`:`pwd` quay.io/dkotliar/cnmf:0.2 bash
+# 这里第一个pwd显示当前文件所在目录。第二个pwd表示在docker中创建一个相同的目录用来挂载文件。
+```
